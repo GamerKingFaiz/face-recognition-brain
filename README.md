@@ -3,6 +3,8 @@ Just click "Sign in" to access the face recognition brain. No actual credentials
 
 Provide an image URL in the textbot and click "Detect". The API works in the background, detects the faces, and then highlights them on the webpage.
 
+Still a work in progress.
+
 ## Geeky Details:
 The page is built in React.It's responsive, meaning it will play nice on mobile.<br />
 I'm using the [Clarifai Predict API](https://www.clarifai.com/developer/guide) to analyze the image to detect faces.<br />
