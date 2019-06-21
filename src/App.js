@@ -91,7 +91,7 @@ class App extends Component {
   onPictureSubmit = () => {
     this.setState({ imageUrl: this.state.input })
     this.setState({ boxes: [] }) // Resetting boxes to nothing
-    fetch('http://localhost:3000/imageurl', { // Clarifai API call
+    fetch('https://protected-beach-94938.herokuapp.com/imageurl', { // Clarifai API call
 				method: 'post',
 				headers: {'Content-Type': 'application/json'},
 				body:   JSON.stringify({
@@ -101,7 +101,7 @@ class App extends Component {
 			.then(response => response.json())
 	.then(response => {
 		if (response) {
-			fetch('http://localhost:3000/image', { // Entries count is incremented by 1
+			fetch('https://protected-beach-94938.herokuapp.com/image', { // Entries count is incremented by 1
 				method: 'put',
 				headers: {'Content-Type': 'application/json'},
 				body:   JSON.stringify({

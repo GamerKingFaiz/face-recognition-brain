@@ -24,7 +24,7 @@ class Register extends React.Component {
 
     onSubmitRegister = () => {
         if (this.state.email) { // Making sure that at least an email address was entered before submitting form
-            fetch('http://localhost:3000/register', { // Register API call
+            fetch('https://protected-beach-94938.herokuapp.com/register', { // Register API call
                 method: 'post',
                 headers: {'Content-Type': 'application/json'},
                 body:   JSON.stringify({
