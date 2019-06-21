@@ -3,7 +3,8 @@ Feel free to register your own user or use this demo login:
 Email: demo@test.net  
 Password: HireMe!
 
-Provide an image URL in the textbot and click "Detect". The API works in the background, detects the faces, and then highlights them on the webpage.
+Provide an image URL in the textbot and click "Detect".  
+The API works in the background, detects the faces, and then highlights them on the webpage.
 
 ## Geeky Details:
 The page is built in React. It's responsive, meaning it will play nice on mobile.<br />
