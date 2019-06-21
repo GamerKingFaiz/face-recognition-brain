@@ -2,6 +2,9 @@ import React from 'react'
 import './Navigation.css'
 import Logo from '../Logo/Logo'
 
+/**
+ * This component houses the signout link (if signed in) otherwise the sign in/register links when not signed in.
+ */
 const Navigation = ({ onRouteChange, isSignedIn }) => {
     if (isSignedIn) {
         return (

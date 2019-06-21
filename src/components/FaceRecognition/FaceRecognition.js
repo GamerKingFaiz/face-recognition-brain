@@ -1,6 +1,10 @@
 import React from 'react'
 import './FaceRecognition.css'
 
+/**
+ * This component is used to display the user provided image and overlay the
+ * boxes from the clarifai face recognition API results
+ */
 const FaceRecognition = ({ imageUrl, boxes }) => {
     const facesArray = () => {
         if(boxes) {
