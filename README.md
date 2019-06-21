@@ -1,6 +1,6 @@
 ## Details
-Feel free to register your own user or use this demo login:
-Email: demo@test.net
+Feel free to register your own user or use this demo login:  
+Email: demo@test.net  
 Password: HireMe!
 
 Provide an image URL in the textbot and click "Detect". The API works in the background, detects the faces, and then highlights them on the webpage.
