@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "59d40ef53547e0013533ab80a53fd753",
+    "revision": "6ce23693d9a081c6325473ca696b853d",
     "url": "/face-recognition-brain/index.html"
   },
   {
-    "revision": "bd04b532acbacc83a9c1",
+    "revision": "227f09ac6f06a581f1a0",
     "url": "/face-recognition-brain/static/css/2.31dafeb2.chunk.css"
   },
   {
-    "revision": "cfe004520f18a9685124",
+    "revision": "fe1ec5285635e2dea8a8",
     "url": "/face-recognition-brain/static/css/main.8a7bf92d.chunk.css"
   },
   {
-    "revision": "bd04b532acbacc83a9c1",
-    "url": "/face-recognition-brain/static/js/2.19322cef.chunk.js"
+    "revision": "227f09ac6f06a581f1a0",
+    "url": "/face-recognition-brain/static/js/2.2e1540a0.chunk.js"
   },
   {
-    "revision": "cfe004520f18a9685124",
-    "url": "/face-recognition-brain/static/js/main.02726e03.chunk.js"
+    "revision": "fe1ec5285635e2dea8a8",
+    "url": "/face-recognition-brain/static/js/main.0160b43e.chunk.js"
   },
   {
     "revision": "6e37b30b4e95597c3d6b",
